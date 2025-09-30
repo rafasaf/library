@@ -4,7 +4,7 @@ class Book:
         points = 1
         if self.price_code == Book.NEW_RELEASE and days_rented > 1:
             points += 1
-        return points
+        return points 
 
     def get_charge(self, days_rented: int) -> float:
         amount = 0
